@@ -16,12 +16,10 @@ use Illuminate\Http\Request;
 
 class TodoController extends BaseController
 {
-    private $model;
     private $todo;
 
-    public function __construct(Todo $model, TodoInterface $todo)
+    public function __construct(TodoInterface $todo)
     {
-        $this->model = $model;
         $this->todo = $todo;
     }
 
