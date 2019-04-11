@@ -8,10 +8,7 @@
 
 namespace App\Http\Controllers;
 
-
-use App\Models\Todo;
 use App\Repositories\Todo\TodoInterface;
-use App\Repositories\Todo\TodoRepository;
 use Illuminate\Http\Request;
 
 class TodoController extends BaseController
